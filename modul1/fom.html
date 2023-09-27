@@ -1,25 +1,34 @@
 <html>
     <head>
-        <title>Modul-1</title>
+        <title>List</title>
+
+        <style>
+            table, th, td {
+                background-color: gold;
+                border: 1px solid black;
+                text-align: center;
+                padding: 5px;
+            }
+        </style>
     </head>
 
     <body>
-        <div class="inputan">
-            <form>
-                <label for="full_name">Nama</label>
-                <input type="text" id="full_name" name="full_name"><br>
-
-                <input type="number" id="nim" name="nim"><br>
-                <label for="nim">NIM</label>
-
-                <label for="born">Tanggal</label> 
-                <input type="date" id="born" name="born"><br>
-
-                <lavel for="addr">Alamat</lavel>
-                <textarea id="addr" name="addr" rows="5" cols="21"></textarea><br>
-
-                <button type="button">Simpan</button>
-            </form>
+        <div class="outputan">
+            <table>
+                <tr>
+                    <th>No</th>
+                    <th>Nama</th>
+                    <th>NIM</th>
+                    <th>Alamat</th>
+                </tr>
+            
+                <tr>
+                    <td>1</td>
+                    <td>Fico Yayan Purwadi</td>
+                    <td>202110370311409</td>
+                    <td>Jl. Bareng Yuk No.409</td>
+                </tr>
+            </table>
         </div>
     </body>
 </html>
