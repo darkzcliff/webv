@@ -1,0 +1,78 @@
+.nav-bg {
+    background: #fff;
+}
+
+.btn-outline-dark, .btn-primary {
+    margin-right: 8px;
+}
+
+.card-title {
+    position: absolute;
+    top: 45%;
+    right: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.card-text {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-bg-dark {
+    border-radius: 0% !important;
+}
+
+.footer-wrapper {
+    background-color: #fff;
+}
+
+.footer-logo {
+    width: 30%;
+    height: 35%;
+}
+
+.medsos-icon {
+    width: 20px;
+}
+
+.medsos-icon-fb {
+    width: 10px;
+}
+
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        width: auto;
+        line-height: 150%;
+        text-align: center;
+    }
+
+    .card-title {
+        position: absolute;
+        top: 45%;
+        right: 45%;
+        transform: translate(-50%, -50%);
+        
+    }
+    
+    .card-text {
+        position: absolute;
+        top: 53%;
+        right: 17%;
+        transform: translate(-50%, -50%);
+    }
+
+    .footer-wrapper {
+        width: auto;
+        line-height: 170%;
+        text-align: center;
+    }
+
+    .footer-wrapper .footer-logo {
+        width: 20%;
+        height: auto;
+
+    }
+}
