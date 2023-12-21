@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materi 1</title>
+</head>
+
+<body>
+    <h1>PENJUMLAHAN BILANGAN</h1>
+    <div class="set-input">
+        <label for="first-num">inp 1</label>
+        <input type="text" id="first-num" name="first-num">
+        
+        <label for="sec-num">inp 2</label>
+        <input type="text" id="sec-num" name="sec-num"><br>
+
+        <button type="button" onclick="add()">Simpan</button>
+        <button type="button" onclick="reset()">Ulang</button>
+    </div>
+
+    <script>
+        function add() {
+            let num1 = parseInt(document.getElementById("first-num").value);
+            let num2 = parseInt(document.getElementById("sec-num").value);
+    
+            alert("Hasil penjumlahan " + (num1 + num2))
+        }
+    
+        function reset() {
+            document.getElementById("first-num").value = "";
+            document.getElementById("sec-num").value = "";
+        }
+    </script>
+
+</body>
+
+</html>
